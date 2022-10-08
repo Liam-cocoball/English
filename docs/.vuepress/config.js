@@ -1,13 +1,29 @@
 module.exports = {
-  title: 'Wellcome to cocoball.vip.',
-  description: '记录学习英语笔记',
+  title: 'Wellcome to cocoball.',
+  description: '描述',
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Word', link: '/guide/word/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Phonetic', link: 'https://cocoball.vip/#/yinbiao/yinbiao' },
-    ]
+      {
+        text: '单词',
+        ariaLabel: 'word Menu',
+        items: [
+          { text: '名词', link: '/guide/word/n/' },
+          { text: '动词', link: '/guide/word/v/' }
+        ]
+      },
+      {
+        text: '语法',
+        ariaLabel: 'yufa Menu2',
+        items: [
+          { text: '入门', link: '/guide/yufa/rumen/' },
+          { text: '中级', link: '/guide/yufa/zhonji/' },
+          { text: '高级级', link: '/guide/yufa/gaoji/' }
+        ]
+      },
+      { text: '音标', link: 'https://cocoball.vip/#/yinbiao/yinbiao', target:'_blank' }
+    ],
+    search: true,
+    searchMaxSuggestions: 10
   }
 }
