@@ -43,26 +43,17 @@ export const sidebarEn: SidebarConfig = {
   ],
   '/reference/': [
     {
-      text: 'VuePress Reference',
+      text: '句子',
       collapsible: true,
-      children: [
-        '/reference/cli.md',
-        '/reference/config.md',
-        '/reference/frontmatter.md',
-        '/reference/components.md',
-        '/reference/plugin-api.md',
-        '/reference/theme-api.md',
-        '/reference/client-api.md',
-        '/reference/node-api.md',
-      ],
+      children: ['/reference/cli.md'],
     },
     {
-      text: 'Bundlers Reference',
+      text: '词意',
       collapsible: true,
-      children: ['/reference/bundler/vite.md', '/reference/bundler/webpack.md'],
+      children: ['/reference/bundler/vite.md'],
     },
     {
-      text: 'Default Theme Reference',
+      text: '时态',
       collapsible: true,
       children: [
         '/reference/default-theme/config.md',
@@ -74,11 +65,11 @@ export const sidebarEn: SidebarConfig = {
       ],
     },
     {
-      text: 'Official Plugins Reference',
+      text: '单词',
       collapsible: true,
       children: [
         {
-          text: 'Common Features',
+          text: '入门',
           children: [
             '/reference/plugin/back-to-top.md',
             '/reference/plugin/container.md',

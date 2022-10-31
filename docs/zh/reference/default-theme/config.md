@@ -285,10 +285,10 @@ export default {
   theme: defaultTheme({
     locales: {
       '/': {
-        selectLanguageName: 'English',
+        selectLanguageName: 'English33',
       },
       '/zh/': {
-        selectLanguageName: '简体中文',
+        selectLanguageName: '简体中文44',
       },
     },
   }),

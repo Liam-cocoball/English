@@ -1,43 +1,165 @@
-# Vite
+# 词意
+## 名词
+名词的定义：世间万物的名称
+普通名词和专有名词，普通名词又可以分成可数名词和不可数名词。可数名词就是哪些能分清楚数量的名词。比如：房子，手机，电脑等，不可数名词就是分不清楚数量的名词。比如：水，咖啡，牛奶等。有时候可数名词和不可数名词和中文不一样，这个时候可以借助词典进行分辨。可数名词都有两个格式：单数和复数，复数是从单数有规则或无规则变化过来的。
 
-<NpmBadge package="@vuepress/bundler-vite" />
+### 可数名词单数变复数
 
-Vite bundler is provided by [@vuepress/bundler-vite](https://www.npmjs.com/package/@vuepress/bundler-vite) package. It is a dependency of the [vuepress](https://www.npmjs.com/package/vuepress) package, and you can also install it separately.
+1、大部分可数名词变复数，在词尾加s  
+2、当以s、sh、x、ch结尾的单词，在词尾加es  
+3、辅音字母+y结尾名词，去y变i加es  
+4、元音字母+y结尾名词，在词尾加s  
+5、当以f或者fe结尾名词，去f或fe变v再加es  
+6、辅音字母+o结尾名词，在词尾加es  
+7、元音字母+o结尾名词，在词尾加s  
+8、有些单数名词变复数没有规律，需要自己记忆  
 
-```bash
-npm i -D @vuepress/bundler-vite@next
-```
+### 不可数名词
 
-## Options
+不可数名词没有复数格式，如果将不可数名词变复数是错误的  
+有时候我们需要表达名词的数量，我们可以使用以下方法构成量词：  
+1、A/a/an+可数名词+of  
+2、数词+可数名词复数+of  
+不是所有的名词都可以构成量词，只有有内部空间或容器或复合逻辑的可数名词才可以构成量词。量词一定不能修饰可数名词单数  
 
-Reference of vite bundler options:
+### 名词的作用
 
-```ts
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defineUserConfig } from '@vuepress/cli'
+1、作主语  
+2、作表语  
+3、作宾语  
+4、作宾补  
+5、作定语  
+6、作介词短语  
+7、作同位语  
+::: tip
+最后，注意一个内容。一个可数名词的单数是不能单独出现在句子和短语中，需要加限定词。（形容词性物主代词，指示代词，'s所有格，数词等）或者加冠词或变复数
+:::
 
-export default defineUserConfig({
-  bundler: viteBundler({
-    viteOptions: {},
-    vuePluginOptions: {},
-  }),
-})
-```
+### 名词所有格
 
-### viteOptions
+英语中名词所有格有两种方式：  
+1、有生命的名词+'s(Tom's apples)
+注意：这里指有生命的是人和动物其它不算  
+2、无生命的用of+无生命名词(the center of the city)  
+::: tip
+注意：这种也叫后置定语，也要考虑单复数问题，另外，被这种所有格修饰的名词，不管单复数，可数不可数名词都必须加定冠词the。还要注意所有格和名词之间的所属关系  
+:::
+## 代词
 
-- Details:
+代词词的定义：代词是为了避免重复而用来代替名词的词语，可以分成：人称代词、物主代词、反身代词、互相代词、指示代词、不定代词、疑问代词、连接代词和关系代词。大多数代词具有名词和形容词的作用，先暂时讲人称代词、物主代词、和指示代词  
 
-  Accepts all options of Vite.
+人称代词主格：I(我)、You(你、你们)、She(她)、He(他)、It(它)、We(我们)、They(他们、她们、它们)  
+人称代词宾格：Me(我)、You(你、你们)、Her(她)、Him(他)、It(它)、Us(我们)、Them(他们、她们、它们)  
+主格作主语，宾格作宾语。主格和宾格都可以做表语  
+物主代词：表示所有有关系的代词叫物主代词，物主代词包括形容词性和名词性物主代词
+形容词性物主代词：My(我的)、Your(你的、你们的)、Her(她的)、His(他的)、Its(它的)、Our(我们的)、Their(他们的、她们的、它们的)  
+主要就是放在一个普通名词前面做前置定语，修饰不可数名词、可数单复数。作前置定语的时候中间不能加冠词
+名词性物主代词：Mine(我的)、Yours(你的、你们的)、Hers(她的)、His(他的)、Its(它的)、Ours(我们的)、Theirs(他们的、她们的、它们的)  
+名词性就相当于一个名词，所以可以作主语、表语、宾语。但是只能在前面提到或避免重复的时候才用，不能作定语  
 
-- Also see:
-  - [Vite > Config](https://vitejs.dev/config/)
+指示代词：  
+单数：This(这个)、That(那个)，be动词用is  
+复数：These(这些)、Those(那些)，be动词用are  
+指示代词主要作：主语、宾语、表语、定语。This、That只能修饰单数的可数名词和不可数名词，不能修饰复数。These、Those修饰可数名词复数，不能修饰单数和不可数名词  
 
-### vuePluginOptions
+## 形容词
+形容词主要用来修饰名词或者代词，表示人或事物的性质，状态和特征。使用频率比较高，数量很多。一般只可以作定语，表语，补语。形容词分成两种：  
+1、普通形容词：只有由一个单词组成的    
+2、复合形容词：由两个单词构成的新单词，两个单词之间有一个"-"符号分割。类似于sky-bulue、hard-working  
+作表语：大部分的形容词都可以作表语，形容词作表语可以直接构成一个句型：主语(名词)+be(系动词)+表语(形容词)  
+作前置定语：大部分形容词都可以作前置定语，修饰普通名词，放在普通名词的前面。比如：The big house
+作宾补：只有部分特定的及物动词后面才可以跟形容词作宾补。比如：I make you busy.
 
-- Details:
+形容词的比较近和最高级  
+大部分的形容词都有三个格式：原级、比较级和最高级。比较级相当于中文中的“更”的意思，最高级相当于“最”的意思。比如：漂亮的是原级、更漂亮的就是比较级、最漂亮的就是最高级。大部分有规则变化，少数无规则变化  
+1、在单音节形容词后面或者以er、ow、ure、le结尾的双元音形容词直接加er、est或者r、st  
+2、以一个辅音字母结尾的重读闭音节形容词，先双写辅音字母再加er、est  
+3、以辅音字母y结尾的形容词y变i再加er、est  
+4、以e结尾的形容词后加r、est  
+5、大多数双音节和多音节的形容词，在前面加more、most  
+……  
+### 比较级和最高级用法  
+形容词的比较级和原型一样都可以作前置定语、表语、宾补  
+1、A + be + 形容词都比较级 + than + B 表示A表B更好  
+2、A + be not + 形容词比较级 + tnan + B 表示A没有B好
+3、A + be as + 形容词原级 + as + B 表示 A和B一样好  
+4、A + be the + 形容词最高级 + 范围的词语 表示A在某一个范围内是最好的  
+::: tip
+注意：形容词比较级和最高级作前置定语也是比较常见，形容词也可以放在不定代词后面作定语，修饰或限定不定代词  
+:::
+## 动词
+动词就是表示动作和心理行为的词语，比如：know、like、think。英语中规定了某一个单词是动词就一定是动词，一切按照英语标准，不能和中文混淆。动词从用法来分，可以分为谓语动词和非谓语动词。他们的区别是一个作谓语，一个不能作谓语，作主语、表语、宾语  
+::: warning
+非谓语动词比较难，也很重要，后面会专门讲述，这里主要讲谓语动词
+:::
+谓语动词有四种：  
+1、实义动词  
+实义动词包括及物动词(vt)和不及物动词(vi)，具有实际意义的动词。及物动词后面一定要加宾语，也就是要加一个动作的对象或者承受者。及物动词如果不加宾语，意思是不完整的。对应的句型是：主语 + 谓语(vt) + 宾语 + 状语。不及物动词后面不能加宾语，意思已经完整了。对应的句型是：主语 + 谓语(vi) + 状语。也有很多实义动词既是vt也是vi，有时候vt和vi表达的意思是不一样的。比如：I run(vi) every day(我每天跑步)和I run(vt) a website(我经营一个网站)。另外，实义动词还有五种形式，同一个单词进行有规律或无规律变化，在不同时态里面要用对应的时态单词。分别是：原形、过去式、过去分词、现在分词、第三人称单数格式。比如：work、worked、worked、working、works都表示工作的意思。有规则的变化规律是：过去式和过去分词在原型后面加ed，现在分词在后面加ing，变第三人称单数在后面加s和可数名词变复数一样。每个大规则下面还有小规则。下面是每种变化的小规则： 
+| <font color=red>**动词原型变过去式和过去分词**</font> |  |  |  
+| :----: | :----: | :----: |  
+| 规则 | 动词原型 | 过去式和过去分词 |  
+| 在动词原型后加ed | ask | asked |  
+| 结尾是e的加d | hope | hoped |  
+| 末尾只有一个辅音字母的重读闭音节动词，双写辅音再加ed | beg | begged |  
+| 末尾是辅音字母y，y变i再加ed | sutdy | sutdied |  
+| <font color=red>**动词原型变现在分词**</font> |  |  |  
+| 规则 | 动词原型 | 现在分词 |  
+| 结尾加ing | go | going |  
+| 不发音e结尾，去e再加ing | take | taking |  
+| 辅音字母结尾的重读闭音节，先双写辅音字母，再加ing | beg | begging |  
+| ie结尾的把ie变为ying | lie | lying |  
+| <font color=red>**动词原型变第三人称单数**</font> |  |  |  
+| 规则 | 动词原型 | 第三人称单数 |  
+| 结尾加s | like | likes |  
+| 以s,x,o,ch,sh结尾加es | do | does |  
+| 辅音字母y结尾变y为i，再加es | fly | flies |  
+::: warning
+有一些动词在变其它四种格式的时候没有规律，需要平时自己多积累，经常用这些单词的时态进行造句
+:::
+2、系动词  
+系动词也叫连系动词，系动词只有一个作用，就是跟表语构成系表结构(主语 + 系动词 + 表语)。不能单独使用，表语也是不能单独使用的。常用的就是be动词，be动词有八种格式：be、am、is、are、was、were、been、being。不管哪种格式都表示是的意思。如果是形容词或介词短语作表语的时候，be的意思不用翻译。还有少数实义动词可以当系动词，当实义动词当系动词的时候意思是不一样的。比如：look作实义动词表示看，作系动词表示看起来。实义动词作系动词有三个特点：  
+2.1、这些系动词是从实义动词里面借过来的  
+2.2、作系动词后，意思立马发生变化  
+2.3、必须跟形容词作表语，通常可以看后面跟的形容词来判断是系动词还是实义动词  
+3、助动词  
+助动词是没有意思的，它的作用就是帮助实义动词或者系动词构成复合谓语、疑问句、否定句、以及各种时态，语态和语气。具体用法在讲时态和语态的时候会详细介绍，这里简单了解即可。常见的助动词有：be、do、have、will、would、shall、should。不能单独使用，没有专门的助动词，都是借过来的。比如：I am working now(我现在正在工作)，am就是助动词  
+4、情态动词  
+情态动词作用就是和动词原型构成复合谓语。情态动词本身有意义，但是不完整。后面会详细介绍，这里简单介绍。情态动词的特点是：  
+4.1、情态动词后面必须跟动词原型构成复合谓语  
+4.2、情态动词是有意义的，意思不完整  
+4.3、有专门的情态动词  
+4.4、情态动词一般不能跟助动词连用  
 
-  Accepts all options of [@vitejs/plugin-vue](https://www.npmjs.com/package/@vitejs/plugin-vue).
+## 冠词
+冠词是一种虚词，没有词义，没有数和格的变化，不能单独使用。冠词分为定冠(the)词和不定冠词(a、an)两大类  
+a、an表示一个的意思，当名词是以元音发音的用an，辅音发音的用a。`比如：a book、an apple、a university、an hour。`另外名词前面有一个形容词或名词作定语，根据就近原则，取决于定语的发音情况用a还是an。`比如：an old man、an English book。`不定冠词常见用法如下：  
+1、首次提到某人或某物，并非特指。`比如：He is a doctor`
+2、在单数普通名词前，指一类人或事物，不必翻译。`比如：A ear is an organ for listening`  
+3、表示时间或度量单位的可数名词单数前，表示“每一”的意思。其它名词不能表达这个意义  
+| <font color=red>**表示时间的名词大概有**</font> |  |  |  |  
+| :----: | :----: | :----: | :----: |  
+| second 秒 | minute 分 | hour 小时 | morning 早上 |
+| noon 中午 | afternoon 下午 | evening 旁晚 | night 夜晚 |
+| day 天 | month 月 | year 年 | week 周 |
+| <font color=red>**表示度量单位的名词大概有**</font> |  |  |  |  
+| Centimeter 厘米 | Meter 米 | Yard 码 | Kilogram 公斤 |
+| Kilometer 千米 | Pound 磅 | Inch 英尺 | Mile 英里 |  
 
-- Also see:
-  - [Vite > Plugins > Official Plugins](https://vitejs.dev/plugins/#vitejs-plugin-vue)
+`比如：a day = every day、an hour = every hour，作时间状语的时候才能表示每一的意思`  
+其它用法  
+4、在少数特定的抽象名词前，`比如：Honesty is a virtue`。人名前，表示说人对此人不认识，`比如：Our teacher is a Miss White`。固定短词里面的不定冠词，`比如：once upon a time、a long time、a little、a few`  
+::: warning
+a、an只能跟可数名词的单数，不能跟不可数名词，也不能跟可数名词复数
+:::
+the表示这，这些的意思，在发音的时候要根据名词是以元音还是辅音开头发对应的音。定冠词常见用法如下：
+1、在普通单数名词前指一类人或事物，不必翻译。跟不定冠词第二种用法一样，`比如：The ear is an organ for listening`。另外表示一类人或事物也可以用复数，`比如：Foxes are cunning animals`  
+2、在重新提及的人或事物前，含有“这、这些”意思。可以修饰可数名词单数、复数、不可数名词，`比如：I bought a book yesterday.The book is interesting`。在谈话双方都知道的人或事物，同样适用，`比如：Do you like the beef?The beef very good `  
+3、在有限定性后置定语修饰的名词前，`比如：The people in the park、The girl in red、The price of the house`。这些都是名词都是带介词短语作限定性后置定语，所以定冠词要加the  
+4、在序数词前，`比如：the frist、the second、the third`  
+5、在表示世界上独一无二的事物的名词前，`比如：the earth、the sun、the world、the moon`
+6、在表示时间或其他情况的习惯用语前，`比如：in the end、in the morning`  
+7、在形容词和副词的最高级前，`比如：the most important、the best`  
+8、在某些形容词变名词前，`比如：the old、the young、the poor`  
+9、在姓氏复数前，表示一家人或夫妇，`比如：The Whites、The Chens、The Lees`  
+10、在西洋乐器前，`比如：the piano、the guitar、the violin`  
+12、在某些专有名词前，`比如：The Great Wall、The Summer Palace、The United States`  

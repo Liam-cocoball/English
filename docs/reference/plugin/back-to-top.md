@@ -1,29 +1,75 @@
-# back-to-top
+# 名词
 
-<NpmBadge package="@vuepress/plugin-back-to-top" />
-
-This plugin will add a _back to top_ button to your site. The button will be displayed in the bottom right corner of the page when scrolling down. By clicking the button, the page will scroll to the top.
-
-This plugin has been integrated into the default theme.
-
-## Usage
-
-```bash
-npm i -D @vuepress/plugin-back-to-top@next
-```
-
-```ts
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-
-export default {
-  plugins: [
-    backToTopPlugin(),
-  ],
-}
-```
-
-## Styles
-
-You can customize the style of the _back to top_ button via CSS variables:
-
-@[code css](@vuepress/plugin-back-to-top/src/client/styles/vars.css)
+| 单数 | 复数 | 三单 | 中文 |  
+| :----: | :----: | :----: | :----: | 
+| father | fathers | fathers | [更多](https://fanyi.baidu.com/#en/zh/father) |  
+| mother | mothers | mothers | [更多](https://fanyi.baidu.com/#en/zh/mother) |
+| uncle | uncles | uncles | [更多](https://fanyi.baidu.com/#en/zh/uncle) |
+| aunt | aunts | aunts | [更多](https://fanyi.baidu.com/#en/zh/aunt) |
+| sister | sister | sisters | [更多](https://fanyi.baidu.com/#en/zh/sister) |
+| brother | brothers | brothers | [更多](https://fanyi.baidu.com/#en/zh/brother) |
+| husband | husbands | husbands | [更多](https://fanyi.baidu.com/#en/zh/husband) |
+| wife | wives | wives | [更多](https://fanyi.baidu.com/#en/zh/wife) |
+| son | sons | sons | [更多](https://fanyi.baidu.com/#en/zh/son) |
+| daughter | daughters | daughters | [更多](https://fanyi.baidu.com/#en/zh/daughter) |
+| man | men | men | [更多](https://fanyi.baidu.com/#en/zh/man) |
+| woman | women | women | [更多](https://fanyi.baidu.com/#en/zh/woman) |
+| boy | boys | boys | [更多](https://fanyi.baidu.com/#en/zh/boy) |
+| girl | girls | girls | [更多](https://fanyi.baidu.com/#en/zh/girl) |
+| baby | babies | babies | [更多](https://fanyi.baidu.com/#en/zh/baby) |
+| friend | friends | friends | [更多](https://fanyi.baidu.com/#en/zh/friend) |
+| girlfriend | girlfriends | girlfriends | [更多](https://fanyi.baidu.com/#en/zh/girlfriend) |
+| boyfriend | boyfriends | boyfriends | [更多](https://fanyi.baidu.com/#en/zh/boyfriend) |
+| classmate | classmates | classmates | [更多](https://fanyi.baidu.com/#en/zh/classmate) |
+| roommate | roommates | roommates | [更多](https://fanyi.baidu.com/#en/zh/roommate) |
+| colleague | colleagues | colleagues | [更多](https://fanyi.baidu.com/#en/zh/colleague) |
+| co-worker | co-workers | co-workers | [更多](https://fanyi.baidu.com/#en/zh/co-worker) |
+| customer | customers | customers | [更多](https://fanyi.baidu.com/#en/zh/customer) |
+| host | hosts | hosts | [更多](https://fanyi.baidu.com/#en/zh/host) |
+| hostess | hostess | hostesses | [更多](https://fanyi.baidu.com/#en/zh/hostess) |
+| guest | guests | guests | [更多](https://fanyi.baidu.com/#en/zh/guest) |
+| partner | partners | partners | [更多](https://fanyi.baidu.com/#en/zh/partner) |
+| fan | fans | fans | [更多](https://fanyi.baidu.com/#en/zh/fan) |
+| detective | detectves | detectives | [更多](https://fanyi.baidu.com/#en/zh/detective) |
+| firefighter | firefighter | firefighters | [更多](https://fanyi.baidu.com/#en/zh/firefighter) |
+| mailman | mailmen | mailmen | [更多](https://fanyi.baidu.com/#en/zh/mailman) |
+| taxi driver | taxi drivers | taxi drivers | [更多](https://fanyi.baidu.com/#en/zh/taxidriver) |
+| milkman | milkmen | milkmen | [更多](https://fanyi.baidu.com/#en/zh/milkman) |
+| baker | bakers | bakers | [更多](https://fanyi.baidu.com/#en/zh/baker) |
+| butcher | butchers | butchers | [更多](https://fanyi.baidu.com/#en/zh/butcher) |
+| saleswoman | saleswomen | saleswomen | [更多](https://fanyi.baidu.com/#en/zh/saleswoman) |
+| air-hostess | air-hostesses | air-hostesses | [更多](https://fanyi.baidu.com/#en/zh/air-hostess) |
+| stewardess | stewardesses | stewardesses | [更多](https://fanyi.baidu.com/#en/zh/stewardess) |
+| dentist | dentist | dentists | [更多](https://fanyi.baidu.com/#en/zh/dentist) |
+| doctor | doctors | doctors | [更多](https://fanyi.baidu.com/#en/zh/doctor) |
+| nurse | nurses | nurses | [更多](https://fanyi.baidu.com/#en/zh/nurse) |
+| designer | designers | designers | [更多](https://fanyi.baidu.com/#en/zh/designer) |
+| tailor | tailors | tailors | [更多](https://fanyi.baidu.com/#en/zh/tailor) |
+| secretary | secretarys | secretaries | [更多](https://fanyi.baidu.com/#en/zh/secretary) |
+| policeman | policemen | policemen | [更多](https://fanyi.baidu.com/#en/zh/policeman) |
+| painter | painters | painters | [更多](https://fanyi.baidu.com/#en/zh/painter) |
+| musician | musicians | musicians | [更多](https://fanyi.baidu.com/#en/zh/musican) |
+| singer | singers | singers | [更多](https://fanyi.baidu.com/#en/zh/singer) |
+| typist | typists | typists | [更多](https://fanyi.baidu.com/#en/zh/typist) |
+| accountant | accountants | accountants | [更多](https://fanyi.baidu.com/#en/zh/accountant) |
+| actor | actors | actors | [更多](https://fanyi.baidu.com/#en/zh/actor) |
+| actress | actresses | actreses | [更多](https://fanyi.baidu.com/#en/zh/actress) |
+| cleaner | cleaners | cleaners | [更多](https://fanyi.baidu.com/#en/zh/cleaner) |
+| dancer | dancers | dancers | [更多](https://fanyi.baidu.com/#en/zh/dancer) |
+| engineer | enginners | engineers | [更多](https://fanyi.baidu.com/#en/zh/engineer) |
+| farmer | farmers | farmers | [更多](https://fanyi.baidu.com/#en/zh/farmer) |
+| film | films | films | [更多](https://fanyi.baidu.com/#en/zh/film) |
+| lawyer | lawyers | lawyers | [更多](https://fanyi.baidu.com/#en/zh/lawyer) |
+| manager | managers | managers | [更多](https://fanyi.baidu.com/#en/zh/manager) |
+| nanny | mannies | nannies | [更多](https://fanyi.baidu.com/#en/zh/nanny) |
+| reporter | reporters | reporters | [更多](https://fanyi.baidu.com/#en/zh/reporter) |
+| sailor | sailors | sailors | [更多](https://fanyi.baidu.com/#en/zh/sailor) |
+| scientist | scientists | scientists | [更多](https://fanyi.baidu.com/#en/zh/scientist) |
+| soldier | soldiers | soldiers | [更多](https://fanyi.baidu.com/#en/zh/soldier) |
+| teacher | teachers | teachers | [更多](https://fanyi.baidu.com/#en/zh/teacher) |
+| student | students | students | [更多](https://fanyi.baidu.com/#en/zh/student) |
+| worker | workers | workers | [更多](https://fanyi.baidu.com/#en/zh/worker) |
+| waiter | waiters | waiters | [更多](https://fanyi.baidu.com/#en/zh/waiter) |
+| waitress | waiteresses | waitresses | [更多](https://fanyi.baidu.com/#en/zh/waitress) |
+| writer | writers | writers | [更多](https://fanyi.baidu.com/#en/zh/writer) |
+| guide | guides | guides | [更多](https://fanyi.baidu.com/#en/zh/guide) |

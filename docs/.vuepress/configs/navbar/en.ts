@@ -1,5 +1,4 @@
 import type { NavbarConfig } from '@vuepress/theme-default'
-import { version } from '../meta.js'
 
 export const navbarEn: NavbarConfig = [
   {
@@ -7,13 +6,13 @@ export const navbarEn: NavbarConfig = [
     link: '/guide/',
   },
   {
-    text: 'Reference',
+    text: '语法',
     children: [
       {
-        text: 'VuePress',
+        text: '入门',
         children: [
           {
-            text: 'CLI',
+            text: '语法',
             link: '/reference/cli.html',
           },
           '/reference/config.md',
@@ -26,14 +25,14 @@ export const navbarEn: NavbarConfig = [
         ],
       },
       {
-        text: 'Bundlers',
+        text: '中级',
         children: [
           '/reference/bundler/vite.md',
           '/reference/bundler/webpack.md',
         ],
       },
       {
-        text: 'Default Theme',
+        text: '高级',
         children: [
           '/reference/default-theme/config.md',
           '/reference/default-theme/frontmatter.md',
@@ -46,10 +45,10 @@ export const navbarEn: NavbarConfig = [
     ],
   },
   {
-    text: 'Plugins',
+    text: '单词',
     children: [
       {
-        text: 'Common Features',
+        text: '名词',
         children: [
           '/reference/plugin/back-to-top.md',
           '/reference/plugin/container.md',
@@ -61,21 +60,21 @@ export const navbarEn: NavbarConfig = [
         ],
       },
       {
-        text: 'Content Search',
+        text: '动词',
         children: [
           '/reference/plugin/docsearch.md',
           '/reference/plugin/search.md',
         ],
       },
       {
-        text: 'PWA',
+        text: '形容词',
         children: [
           '/reference/plugin/pwa.md',
           '/reference/plugin/pwa-popup.md',
         ],
       },
       {
-        text: 'Syntax Highlighting',
+        text: '代词',
         children: [
           '/reference/plugin/prismjs.md',
           '/reference/plugin/shiki.md',
@@ -94,7 +93,7 @@ export const navbarEn: NavbarConfig = [
     ],
   },
   {
-    text: 'Learn More',
+    text: '文章',
     children: [
       {
         text: 'Advanced',
@@ -117,23 +116,6 @@ export const navbarEn: NavbarConfig = [
             link: 'https://github.com/vuepress/awesome-vuepress',
           },
         ],
-      },
-    ],
-  },
-  {
-    text: `v${version}`,
-    children: [
-      {
-        text: 'Changelog',
-        link: 'https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md',
-      },
-      {
-        text: 'v1.x',
-        link: 'https://v1.vuepress.vuejs.org',
-      },
-      {
-        text: 'v0.x',
-        link: 'https://v0.vuepress.vuejs.org',
       },
     ],
   },

@@ -21,7 +21,7 @@ export const DEFAULT_LOCALE_OPTIONS: DefaultThemeLocaleOptions = {
 
   // page meta
   editLink: true,
-  editLinkText: 'Edit this page',
+  // editLinkText: 'Edit this page',
   lastUpdated: true,
   lastUpdatedText: 'Last Updated',
   contributors: true,
@@ -44,7 +44,7 @@ export const DEFAULT_LOCALE_OPTIONS: DefaultThemeLocaleOptions = {
 
 export const DEFAULT_LOCALE_DATA: DefaultThemeLocaleData = {
   // navbar
-  selectLanguageName: 'English',
+  selectLanguageName: 'English66',
 }
 
 /**

@@ -104,7 +104,7 @@ VuePress documentation is powered by VuePress itself, which is built from the so
 
 All the markdown source files are placed in `docs` directory. We are maintaining two translations:
 
-- English (en-US) in `/` path
+- English9 (en-US) in `/` path
 - Chinese (zh-CN) in `/zh/` path
 
 We have two different deployments:

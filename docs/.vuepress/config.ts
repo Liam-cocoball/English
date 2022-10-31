@@ -30,8 +30,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'VuePress',
-      description: 'Vue-powered Static Site Generator',
+      title: 'Make English Easy.',
+      description: 'Sow nothing, reap nothing.',
     },
     '/zh/': {
       lang: 'zh-CN',
@@ -73,7 +73,7 @@ export default defineUserConfig({
       '/zh/': {
         // navbar
         navbar: navbarZh,
-        selectLanguageName: '简体中文',
+        selectLanguageName: '简体中文7',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
         // sidebar
