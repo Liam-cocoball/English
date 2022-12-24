@@ -11,6 +11,7 @@
   "author": "Coco",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
     "vuepress": "^1.9.7"
   }
 }

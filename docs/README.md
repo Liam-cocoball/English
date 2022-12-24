@@ -1,16 +1,16 @@
 ---
 home: true
 heroImage: /CoconutCocktail.png
-heroText: CoCoBall.vip
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /
+heroText: Make English Easy
+tagline: Sow nothing, reap nothing.
+actionText: 开始学习 →
+actionLink: /guide/yufa/rumen/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2022- new Date().getFullYear();
+- title: 关于我
+  details: 热爱生活，热爱记录，热爱英语，
+- title: 关于website
+  details: 记录从0到1学习英语过程中的知识点，可能存在一些错误，欢迎指出。
+- title: 联系我
+  details: QQ:2313988763
+footer: 滇ICP备19006675号
 ---
